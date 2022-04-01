@@ -1,0 +1,14 @@
+.formContacts {
+    padding: 50px 40px;
+    background-color: #023028;
+}
+.formContacts .input {
+    margin-bottom: 20px;
+}
+.formContacts .input.-textarea {
+    margin-bottom: 40px;
+}
+.formContacts  h1 {
+    text-align: center;
+    color:#0CF2B1;
+}

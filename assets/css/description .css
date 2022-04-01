@@ -1,0 +1,24 @@
+.description {
+    background-color: #253259;
+    border-bottom: 10px solid black;
+    padding-top: 50px;
+    padding-bottom: 110px;
+    text-align: center;
+    height:500px;
+    background-size: 50%;
+    border-bottom: 10px solid #000;  
+    margin-left: 00px;
+}
+.description  > p {
+    color: #0CF2B1;
+    font-size: 10px;
+    text-shadow: 4px 4px 0px #118C76 ;
+    text-align: justify;
+    padding: 60px 40px;
+    text-shadow: none;
+    line-height: 2.8em;  
+}
+#titleDescription{
+    color: #0CF2B1;
+    text-shadow: none;
+}

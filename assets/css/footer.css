@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #402D22;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.footer a:before  {
+    content: none;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ .footer .action {
+    margin-left: 20px;
+    margin-right: 20px;
+ }

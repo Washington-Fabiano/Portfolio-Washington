@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+main {
+    height:600px;
+    border-bottom: 10px solid #000;  
+    background-color: #128CE5;
+    background-image: url(imagem\ pf.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-size: 45%;  
+}
+.presentation {
+    display: inline-block;
+    background-color: #183940;
+    width: 370px;
+    height: 70px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 150px;
+    margin-left: 91px;
+    box-shadow: 5px 5px 0px #023028 ;
+    text-align: center;
+}
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #0CF2B1;
+    text-shadow: 10px 5px 0px #023028 ;
+}
+p {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 20px;
+    color: #0CF2B1;
+    text-shadow: 4px 4px 0px #023028 ;
+}
+main > .imgs {
+    width: 600px;
+    height: 600px;
+    margin-top: -368px;
+    margin-left: 748px;
+}
+@media screen and (min-width: 1165px) and (max-width:1364px ){
+main {
+    height: 500px; 
+    background-size: 44%;
+}
+}
+@media screen and (min-width: 1025px) and (max-width:1164px ){
+main {
+    height: 500px; 
+    background-size: 50%;
+}
+}
+@media screen and (min-width: 943px) and (max-width:1024px ){
+main {
+    height: 500px; 
+    background-size: 54%; 
+}
+main > .imgs {
+    width: 500px;
+    height: 500px;
+    margin-top: -335px;
+    margin-left: 506px;
+}
+.presentation {
+    display: inline-block;
+    background-color: #183940;
+    width: 260px;
+    height: 70px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 150px;
+    margin-left: 150px;
+    box-shadow: 5px 5px 0px #023028;
+    text-align: center;
+}
+} 
+@media screen and (min-width: 625px) and (max-width:943px ){
+main {
+    height: 500px; 
+    background-size: 83%; 
+}
+}
+@media screen and (min-width: 320px) and (max-width:624px ){
+main {
+    height: 350px; 
+    background-size: 73%;
+}
+main > .imgs {
+    width: 280px;
+    height: 350px;
+    margin-top: -295px;
+    margin-left: 203px;
+}
+.presentation {
+    display: inline-block;
+    background-color: #183940;
+    width: 200px;
+    height: 70px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 35px;
+    margin-left: 60px;
+    box-shadow: 5px 5px 0px #023028;
+    text-align: center;
+}
+}

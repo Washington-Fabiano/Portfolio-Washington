@@ -1,0 +1,29 @@
+.tec-skill {
+    display: flex;
+    align-items: center;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 15px;
+    color: #0CF2B1;
+}
+.tec-skill .icon {
+    margin-right: 25px;
+    width: 90px;
+}
+.tec-skill .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    margin-left: 12px;
+}
+.tec-skill .title {
+    margin-bottom: 15px;
+}
+.tec-skill .title-html, .title-css {
+    margin-bottom: 15px;
+    margin-left: 12px;
+}
+.tec-skill .title-node {
+    margin-bottom: 15px;
+    margin-left: 7px;
+}

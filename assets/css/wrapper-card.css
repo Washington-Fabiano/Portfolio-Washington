@@ -1,0 +1,30 @@
+.wrapper-card {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 130px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 282px;
+}
+.wrapper-card .card-project {
+  margin-left: 10px;  
+}
+.wrapper-card::after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  left: 40px;
+  height: 6px;
+  width: calc(100% - 80px);
+  margin-top: -38px;
+  background-color: #183940;
+}
+.wrapper-card::before{
+  content: ' ';
+  position: absolute;
+  display: block;
+  left: 0;
+  border: 3px dashed #183940 ;
+  width: calc(100% - 7px);
+  margin-top: -38px;
+}

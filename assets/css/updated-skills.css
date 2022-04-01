@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.updatedSkills {
+    background-color: #023028;
+    border-bottom: 10px solid black;
+    padding-top: 50px;
+    padding-bottom: 110px;
+    text-align: center;
+    height:600px;
+    background-size: 50%;
+    border-bottom: 10px solid #000;  
+    margin-left: 00px;
+}
+@media screen and (min-width: 375px) and (max-width:625px ){
+.updatedSkills {
+    background-color: #023028;
+    border-bottom: 10px solid black;
+    padding-top: 50px;
+    padding-bottom: 110px;
+    text-align: center;
+    height:550px;
+    background-size: 50%;
+    border-bottom: 10px solid #000;  
+    margin-left: 00px;
+    }
+#titleSkills {
+    margin-top: -30px;
+}
+.sk-tec {
+    margin-top: 40px;  
+}
+}

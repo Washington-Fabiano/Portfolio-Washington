@@ -1,0 +1,68 @@
+.card-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    width: 270px;
+    height: 270px;
+    box-shadow: 5px 5px 0px #183940;
+    position: relative;
+}
+.card-project::before {
+    content: '';
+    box-sizing: border-box;
+    height: 0px;
+    width: 28px;
+    border: 2px dashed #183940;
+    transform: rotate(90deg);
+    position: absolute;
+    margin-bottom: 112%;
+}
+.card-project .logo {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 60px;
+}
+.card-project .logoCordel {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 87px;
+}
+.card-project .logoNft {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 82px;
+}
+.wrapper-card > a:before  {
+   content: none;
+}
+.wrapper-card .card-project.-Cordel {
+    background-color: #402D22;
+    margin-left: -10px;
+}
+.wrapper-card .card-project.-Semafaro {
+    background-color:#0CF2B1;
+    margin-left: -10px; 
+}
+.wrapper-card .card-project.-Nft {
+    background-color:blueviolet;
+    margin-left: -10px;
+    margin-right: -20px;
+}
+.card-project .title {
+    display: block;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: #183940;
+    font-family: 'Press Start 2P', sans-serif;
+    margin-bottom: 65px; 
+}
+
