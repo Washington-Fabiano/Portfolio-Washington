@@ -23,7 +23,13 @@
     border: 3px solid black;
     height: 40px;
 }
-.progress-barh, .progress-barc, .progress-barr {
+.progress-barr {
+    box-sizing: border-box;
+    border: 3px solid black;
+    height: 40px;
+    margin-left: -1px;
+}
+.progress-barh, .progress-barc {
     box-sizing: border-box;
     border: 3px solid black;
     height: 40px;
@@ -51,6 +57,10 @@
     margin-left: 4px;
 }
 @media screen and (min-width: 350px) and (max-width:625px ){
+.skill-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+}   
 .skill-wrapper .progress-bar, .progress-barh, .progress-barc, .progress-barn,.progress-barr {
     width: 240px;
 }
