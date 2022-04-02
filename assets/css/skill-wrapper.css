@@ -1,60 +1,60 @@
 .skill-wrapper {
-display: flex;
-flex-wrap: wrap;
-max-width: 960px;
-margin-left: auto;
-margin-right: auto;
-margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
 }
 .skill-wrapper .tec-skill {
-width: 430px;
+    width: 430px;
 }
 .skill-wrapper .tec-skill:nth-child(odd) {
-margin-right: 100px; 
+    margin-right: 100px; 
 }
 .skill-wrapper .tec-skill{
-margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 .skill-wrapper .progress-bar, .progress-barh, .progress-barc,.progress-barn, .progress-barr {
-width: 320px;
+    width: 320px;
 }
 .progress-bar {
-box-sizing: border-box;
-border: 3px solid black;
-height: 40px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    height: 40px;
 }
 .progress-barh, .progress-barc, .progress-barr {
-box-sizing: border-box;
-border: 3px solid black;
-height: 40px;
-margin-left: 11px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    height: 40px;
+    margin-left: 11px;
 }
 .progress-barc::-webkit-progress-bar {
-background-color: white;
+    background-color: white;
 }
 .progress-barn::-webkit-progress-bar {
-background-color: white;
+    background-color: white;
 }
 .progress-barh::-webkit-progress-bar {
-background-color: white;
+    background-color: white;
 }
 .progress-barr::-webkit-progress-bar {
-background-color: white;
+    background-color: white;
 }
 .progress-bar::-webkit-progress-bar {
-background-color: white;
+    background-color: white;
 }
 .progress-barn {
-box-sizing: border-box;
-border: 3px solid black;
-height: 40px;
-margin-left: 4px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    height: 40px;
+    margin-left: 4px;
 }
 @media screen and (min-width: 375px) and (max-width:625px ){
 .skill-wrapper .progress-bar, .progress-barh, .progress-barc, .progress-barn,.progress-barr {
-width: 240px;
+    width: 240px;
 }
 .progress-barr{
-margin-left: -3px;
+    margin-left: -3px; 
 }
 }
