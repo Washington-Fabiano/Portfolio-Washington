@@ -27,3 +27,8 @@
     margin-bottom: 15px;
     margin-left: 7px;
 }
+@media screen and (min-width: 375px) and (max-width:625px ){
+    .tec-skill {
+        margin-left: 8px;
+    }
+}
