@@ -22,7 +22,7 @@
     color: #0CF2B1;
     text-shadow: none;
 }
-@media screen and (min-width: 375px) and (max-width:625px ){
+@media screen and (min-width: 350px) and (max-width:625px ){
     .description {
         height: 680px;
     }

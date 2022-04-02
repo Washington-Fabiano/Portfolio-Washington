@@ -20,7 +20,7 @@
     border-bottom: 10px solid #000;  
     margin-left: 00px;
 }
-@media screen and (min-width: 375px) and (max-width:625px ){
+@media screen and (min-width: 350px) and (max-width:625px ){
 .updatedSkills {
     background-color: #023028;
     border-bottom: 10px solid black;

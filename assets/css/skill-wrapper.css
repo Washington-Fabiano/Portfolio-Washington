@@ -50,7 +50,7 @@
     height: 40px;
     margin-left: 4px;
 }
-@media screen and (min-width: 375px) and (max-width:625px ){
+@media screen and (min-width: 350px) and (max-width:625px ){
 .skill-wrapper .progress-bar, .progress-barh, .progress-barc, .progress-barn,.progress-barr {
     width: 240px;
 }

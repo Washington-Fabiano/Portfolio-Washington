@@ -43,7 +43,7 @@ a:before {
     height: 10px;
     margin-right: 10px; 
 }
-@media screen and (min-width: 375px) and (max-width:625px ){
+@media screen and (min-width: 350px) and (max-width:625px ){
 header {
     display:flex;
     justify-content: space-between;

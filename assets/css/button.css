@@ -122,7 +122,7 @@ button {
     text-align: center;
 }
 }
-@media screen and (min-width: 375px) and (max-width:625px ){
+@media screen and (min-width: 350px) and (max-width:625px ){
 .resumeButton {
     display: none;
 }
@@ -144,7 +144,7 @@ button {
     text-align: center;
 }
 #resumeNav {
-    margin-left: 147px;
+    margin-left: 130px;
     margin-top: -68px;
     margin-bottom: 13px;
 }

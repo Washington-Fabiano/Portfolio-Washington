@@ -97,10 +97,10 @@ main {
     background-size: 83%; 
 }
 }
-@media screen and (min-width: 320px) and (max-width:624px ){
+@media screen and (min-width: 350px) and (max-width:624px ){
 main {
     height: 350px; 
-    background-size: 98%;
+    background-size: 105%;
 }
 main > .imgs {
     width: 280px;
