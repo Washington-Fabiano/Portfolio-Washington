@@ -40,6 +40,12 @@
     padding-right: 15px;
     padding-bottom: 82px;
 }
+.card-project .teslaWebsite {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    padding-bottom: 15px;
+}
 .wrapper-card > a:before  {
    content: none;
 }
@@ -49,20 +55,34 @@
 }
 .wrapper-card .card-project.-Semafaro {
     background-color:#0CF2B1;
-    margin-left: -10px; 
+    margin-left: -10px;
 }
 .wrapper-card .card-project.-Nft {
     background-color:blueviolet;
     margin-left: -10px;
+    margin-right: -0px;
+}
+.wrapper-card .card-project.-teslaWebsite {
+    background-color:#402D22;
+    margin-left: -10px;
     margin-right: -20px;
 }
-.card-project .title {
+.card-project .title{
     display: block;
     align-items: center;
     font-size: 15px;
     font-weight: 400;
     color: #183940;
     font-family: 'Press Start 2P', sans-serif;
-    margin-bottom: 65px; 
+    margin-bottom: 65px;
 }
-
+.card-project .titleTesla {
+    display: block;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: #183940;
+    font-family: 'Press Start 2P', sans-serif;
+    margin-top: -82px;
+    padding: 33px;
+}
