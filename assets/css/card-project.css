@@ -67,6 +67,11 @@
     margin-left: -10px;
     margin-right: -20px;
 }
+.wrapper-card .card-project.-netflixWebsite {
+  background-color:#0CF2B1;
+  margin-left: 10px;
+  margin-right: 0px;
+}
 .card-project .title{
     display: block;
     align-items: center;
@@ -85,4 +90,15 @@
     font-family: 'Press Start 2P', sans-serif;
     margin-top: -82px;
     padding: 33px;
+}
+.card-project .titleNetflix {
+  display: block;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: #183940;
+  font-family: 'Press Start 2P', sans-serif;
+  margin-top: -125px;
+  padding: 54px;
+  width: 215px;
 }
