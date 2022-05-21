@@ -4,6 +4,13 @@
     background-color: #38F2F2;
     box-shadow: 5px 5px 0px black;
     cursor: pointer;
+    outline: none;
+}
+.button-arrow:focus {
+  border: solid 2px #0CF2B1;
+  border-radius: 3px;
+  opacity: 0.8;
+  outline: none;
 }
 .button-arrow::before {
     content: '';
@@ -14,12 +21,13 @@
     border: 15px solid transparent;
     border-left: 27px solid white;
     transform: translateX(-5px);
+
 }
 .button-arrow .content{
     display: none;
 }
 .button-arrow.left::before {
-    transform: rotate(180deg) translateX(26px);  
+    transform: rotate(180deg) translateX(26px);
 }
 .carousel .button-arrow.left {
     position: relative;
@@ -27,7 +35,7 @@
 }
 .carousel .button-arrow.right {
     position: relative;
-    bottom: -100px;   
+    bottom: -100px;
 }
 .items {
     width: 88%;
@@ -37,7 +45,7 @@
 }
 .wrapper-card .elements {
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;
     margin-top: -100px;
     transition: transform 100ms ease-in-out;
 }
@@ -45,10 +53,12 @@
     content: none;
 }
 .button-arrow.left:hover {
-    background-color: #38f2f2d4;  
+    background-color: #38f2f2d4;
+    outline: none;
 }
 .button-arrow.right:hover {
-    background-color: #38f2f2d4; 
+    background-color: #38f2f2d4;
+    outline: none;
 }
 .ebutton.-full {
     background-color: #253259;
@@ -58,5 +68,5 @@
     box-shadow: 5px 5px 0px #001613;
 }
 .ebutton.-full:hover {
-    transform: scale(1.02);   
+    transform: scale(1.02);
 }

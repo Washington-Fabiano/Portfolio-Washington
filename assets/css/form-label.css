@@ -5,3 +5,13 @@
     line-height: 40px;
     color: #0CF2B1;
 }
+
+.accessibilityInput:focus {
+  border: solid 1px #0CF2B1;
+  padding: 2px;
+  border-radius: 3px;
+}
+.accessibilityInput:focus-visible {
+  outline: none;
+}
+

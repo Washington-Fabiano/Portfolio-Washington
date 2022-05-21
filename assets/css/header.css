@@ -20,7 +20,7 @@ header {
     padding-bottom: 10px;
 }
 nav {
-    text-align: right; 
+    text-align: right;
 }
 a {
     display: inline-flex;
@@ -31,17 +31,34 @@ a {
     font-weight: 500;
     text-decoration: none;
     margin-right: 30px;
+    outline: none;
+}
+.accessibility:focus {
+  border: solid 1px #0CF2B1;
+  padding: 2px;
+  border-radius: 3px;
+  transition: 0.2s;
+  opacity: 0.6;
+}
+.accessibilityDowload:focus {
+  border: solid 1px #0CF2B1;
+  text-align: center;
+  padding: 0px 18px;
+  border-radius: 3px;
+  outline: none;
+}
+.accessibilityDowload:focus > a {
+  align-items: center;
 }
 a:hover {
-    color:#26BFA3 ;
-    transition: 0,5s;
+    color:#26BFA3;
 }
 a:before {
     content: "";
     background-color: #0CF2B1;
     width: 10px;
     height: 10px;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 @media screen and (min-width: 350px) and (max-width:625px ){
 header {
@@ -55,7 +72,7 @@ header {
     padding-bottom: 10px;
 }
 nav {
-    text-align: right; 
+    text-align: right;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

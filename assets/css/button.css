@@ -25,6 +25,7 @@
 }
 .resumeButton {
     display: flex;
+    text-align: justify;
     background-color: #183940;
     width: 160px;
     height: 60px;
@@ -49,6 +50,7 @@
     font-weight: 500;
     text-decoration: none;
     margin-right: 20px;
+    outline: none;
 }
 .resumeButton > a:before {
     width: 0px;
@@ -79,6 +81,7 @@
     font-weight: 500;
     text-decoration: none;
     margin-right: 20px;
+    outline: none;
 }
 .contacts > a:before{
     content: none;
@@ -149,6 +152,9 @@ button {
     margin-bottom: 13px;
 }
 h1 {
-    font-size: 15px; 
+    font-size: 15px;
 }
 }
+
+
+

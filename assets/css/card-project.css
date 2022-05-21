@@ -8,6 +8,7 @@
     height: 270px;
     box-shadow: 5px 5px 0px #183940;
     position: relative;
+    outline: none;
 }
 .card-project::before {
     content: '';
@@ -101,4 +102,4 @@
   margin-top: -125px;
   padding: 54px;
   width: 215px;
-}
+  }

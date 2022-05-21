@@ -17,10 +17,15 @@
     text-align: center;
     height:500px;
     background-size: 50%;
-    border-bottom: 10px solid #000;  
+    border-bottom: 10px solid #000;
     margin-left: 00px;
 }
 #titleProjects {
     color: #0CF2B1;
     text-shadow: none;
+}
+.accessibilityProjets:focus {
+  border: solid 1px #0CF2B1;
+  border-radius: 3px;
+  outline: none;
 }
