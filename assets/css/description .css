@@ -6,7 +6,7 @@
     text-align: center;
     height:500px;
     background-size: 50%;
-    border-bottom: 10px solid #000;  
+    border-bottom: 10px solid #000;
     margin-left: 00px;
 }
 .description  > p {
@@ -16,12 +16,20 @@
     text-align: justify;
     padding: 60px 40px;
     text-shadow: none;
-    line-height: 2.8em; 
+    line-height: 2.8em;
 
 }
 #titleDescription{
+    background-color:#253259;
     color: #0CF2B1;
     text-shadow: none;
+    outline: none;
+}
+#titleDescription:focus {
+  border: solid 1px #0CF2B1;
+  border-radius: 3px;
+  padding: 8px 8px;
+  
 }
 @media screen and (min-width: 350px) and (max-width:625px ){
     .description {

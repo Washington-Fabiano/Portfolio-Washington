@@ -27,6 +27,16 @@
     margin-bottom: 15px;
     margin-left: 7px;
 }
+#titleSkills {
+  background-color:#023028;
+  outline: none;
+}
+#titleSkills:focus{
+  border: solid 1px #0CF2B1;
+  border-radius: 3px;
+  padding: 8px 8px;
+
+}
 @media screen and (min-width: 350px) and (max-width:625px ){
     .tec-skill {
         margin-left: 8px;

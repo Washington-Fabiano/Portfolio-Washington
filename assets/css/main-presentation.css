@@ -11,13 +11,13 @@
 }
 main {
     height:600px;
-    border-bottom: 10px solid #000;  
+    border-bottom: 10px solid #000;
     background-color: #128CE5;
     background-image: url(../img/image\ \(1\)\(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
-    background-size: 45%;  
+    background-size: 45%;
 }
 .presentation {
     display: inline-block;
@@ -37,7 +37,6 @@ h1 {
     font-family: 'Press Start 2P', cursive;
     font-size: 20px;
     color: #0CF2B1;
-    text-shadow: 10px 5px 0px #023028 ;
 }
 p {
     font-family: 'Press Start 2P', cursive;
@@ -45,7 +44,7 @@ p {
     text-align: center;
     margin-top: 20px;
     color: #0CF2B1;
-    text-shadow: 4px 4px 0px #023028 ;
+    text-shadow: 4px 4px 0px #023028;
 }
 main > .imgs {
     width: 600px;
@@ -55,20 +54,20 @@ main > .imgs {
 }
 @media screen and (min-width: 1165px) and (max-width:1364px ){
 main {
-    height: 500px; 
+    height: 500px;
     background-size: 44%;
 }
 }
 @media screen and (min-width: 1025px) and (max-width:1164px ){
 main {
-    height: 500px; 
+    height: 500px;
     background-size: 50%;
 }
 }
 @media screen and (min-width: 943px) and (max-width:1024px ){
 main {
-    height: 500px; 
-    background-size: 54%; 
+    height: 500px;
+    background-size: 54%;
 }
 main > .imgs {
     width: 500px;
@@ -90,16 +89,16 @@ main > .imgs {
     box-shadow: 5px 5px 0px #023028;
     text-align: center;
 }
-} 
+}
 @media screen and (min-width: 625px) and (max-width:943px ){
 main {
-    height: 500px; 
-    background-size: 83%; 
+    height: 500px;
+    background-size: 83%;
 }
 }
 @media screen and (min-width: 350px) and (max-width:624px ){
 main {
-    height: 350px; 
+    height: 350px;
     background-size: 105%;
 }
 main > .imgs {

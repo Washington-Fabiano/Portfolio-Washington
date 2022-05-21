@@ -10,7 +10,7 @@
     width: 430px;
 }
 .skill-wrapper .tec-skill:nth-child(odd) {
-    margin-right: 100px; 
+    margin-right: 100px;
 }
 .skill-wrapper .tec-skill{
     margin-bottom: 40px;
@@ -36,23 +36,23 @@
     margin-left: 11px;
 }
 .progress-barc::-webkit-progress-bar {
-    background-color: white;
+    background-color:  #fff;
 }
 .progress-barn::-webkit-progress-bar {
-    background-color: white;
+    background-color:  #fff;
 }
 .progress-barh::-webkit-progress-bar {
-    background-color: white;
+    background-color:  #fff;
 }
 .progress-barr::-webkit-progress-bar {
-    background-color: white;
+    background-color:  #fff;
 }
 .progress-bar::-webkit-progress-bar {
-    background-color: white;
+    background-color: #fff;
 }
 .progress-barn {
     box-sizing: border-box;
-    border: 3px solid black;
+    border: 3px solid #000;
     height: 40px;
     margin-left: 4px;
 }
@@ -60,11 +60,12 @@
 .skill-wrapper {
     margin-left: auto;
     margin-right: auto;
-}   
+    margin-top: 20px;
+}
 .skill-wrapper .progress-bar, .progress-barh, .progress-barc, .progress-barn,.progress-barr {
     width: 240px;
 }
 .progress-barr{
-    margin-left: -3px; 
+    margin-left: -3px;
 }
 }

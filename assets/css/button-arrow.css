@@ -21,7 +21,6 @@
     border: 15px solid transparent;
     border-left: 27px solid white;
     transform: translateX(-5px);
-
 }
 .button-arrow .content{
     display: none;
